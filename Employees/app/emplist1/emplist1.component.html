@@ -1,0 +1,16 @@
+<h1>Emplist 1</h1>
+<hr>
+<table>
+    <th>Names</th>
+    <th>First Name</th>
+    <th>Last Name</th>
+    <th>Email</th>
+
+    <tr *ngFor=" let employees of Empinfo">
+        <td>{{employees.id}}</td>
+        <td>{{employees.firstname}}</td>
+        <td>{{employees.lastname}}</td>
+        <td>{{employees.email}}</td>
+
+    </tr>
+</table>
